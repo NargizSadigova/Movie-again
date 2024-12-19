@@ -15,7 +15,7 @@ const App = () => {
   const location = useLocation();
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?s=${search}&apikey=c1590847`)
+    fetch(`https://www.omdbapi.com/?s=${search}&apikey=c1590847`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data.Search);
