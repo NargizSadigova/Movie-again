@@ -3,7 +3,7 @@ import Navbar from './Component/Navbar';
 import MovieList from './Component/MovieList';
 import Favorites from './Component/Favorites';
 import Search from './Component/Search';
-import { HashRouter as Router, Route, Routes, NavLink, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, NavLink, useLocation } from "react-router-dom";
 
 
 import './App.css';
